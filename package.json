@@ -1,0 +1,32 @@
+{
+  "name": "projeto_creathus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\"",
+    "run dashboard":"cypress run --record --key afefe259-9acb-4be4-a504-4ab8d7d56696"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "dependencies": {
+    "cypress": "^9.6.0",
+    "cypress-cucumber-preprocessor": "^2.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress-multi-reporters": "^1.6.0",
+    "mocha-junit-reporter": "^2.0.2",
+    "typescript": "^4.6.4"
+  }
+}
