@@ -6,7 +6,7 @@
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\"",
     "test:all": "cypress run --spec \"**/*.features\"",
-    "run dashboard":"cypress run --record --key afefe259-9acb-4be4-a504-4ab8d7d56696"
+    "run dashboard":"npx cypress run --record --key afefe259-9acb-4be4-a504-4ab8d7d56696"
   },
   "repository": {
     "type": "git",
